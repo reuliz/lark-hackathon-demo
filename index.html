@@ -3,12 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The People's Page - Day 1</title>
+    <title>Babylin Happy | Mayoreo de Ropa Infantil</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .img-producto { width: 100%; height: 250px; object-fit: cover; display: block; }
+        .logo img { max-height: 80px; vertical-align: middle; }
+        .logo { display: flex; align-items: center; gap: 10px; }
+        .btn-wa-img img { width: 60px; height: 60px; border-radius: 50%; box-shadow: 0 4px 10px rgba(0,0,0,0.3); transition: transform 0.2s; display: block; }
+        .btn-wa-img img:hover { transform: scale(1.1); }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>The People's Page</h1>
+    <header>
+        <div class="logo">
+            <img src="logo.jpeg" alt="Logo Babylin Happy">
+            <span>Babylin Happy</span>
+        </div>
+        <nav>
+            <a href="index.html" style="color:#ff6b6b;">Inicio</a>
+            <a href="ninas.html">Niñas</a>
+            <a href="ninos.html">Niños</a>
+            <a href="ubicacion.html">Ubicación</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Ropa Infantil Cómoda y Versátil</h1>
+            <p>Somos mayoristas con más de 10 años de experiencia. Calidad y diseño atemporal para tu negocio.</p>
+            <a href="ninas.html" class="btn-principal">Ver Catálogo</a>
+        </div>
+    </section>
+
+    <section id="nosotros">
+        <h2>Surtimos tu Negocio</h2>
+        <div class="beneficios">
+            <div class="beneficio-item">
+                <h3>Lotes Surtidos</h3>
+                <p>Mínimo de 36 piezas. Incluye tallas, estilos y colores para niño y niña.</p>
+            </div>
+            <div class="beneficio-item">
+                <h3>Envíos Seguros</h3>
+                <p>Contamos con entregas por paquetería a todo destino.</p>
+            </div>
+            <div class="beneficio-item">
+                <h3>Atención Directa</h3>
+                <p>Contáctanos por WhatsApp para consultar nuestros precios de mayoreo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="novedades">
+        <h2>Novedades Bebés</h2>
+        <div class="grid-productos">
+            <div class="tarjeta-producto">
+                <img src="bebe1.jpeg" class="img-producto" alt="Ropa Bebé">
+                <h4>Conjunto Bebé Especial</h4>
+                <p>Comodidad total</p>
+            </div>
+            <div class="tarjeta-producto">
+                <img src="bebe2.jpeg" class="img-producto" alt="Ropa Bebé">
+                <h4>Ropa Cómoda Bebé</h4>
+                <p>Lotes surtidos</p>
+            </div>
+            <div class="tarjeta-producto">
+                <img src="bebe 3.jpeg" class="img-producto" alt="Ropa Bebé">
+                <h4>Estilo Atemporal</h4>
+                <p>Tallas iniciales</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Babylin Happy. Todos los derechos reservados.</p>
+    </footer>
+
+    <div class="whatsapp-flotante">
+        <a href="https://wa.me/522201551097?text=Hola,%20me%20interesa%20informaci%C3%B3n%20sobre%20los%20lotes%20de%2036%20piezas" target="_blank" class="btn-wa-img">
+            <img src="WhatsApp.webp" alt="Cotizar por WhatsApp">
+        </a>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

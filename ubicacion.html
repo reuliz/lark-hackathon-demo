@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubicación | Babylin Happy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .logo img { max-height: 80px; vertical-align: middle; }
+        .logo { display: flex; align-items: center; gap: 10px; }
+        .btn-wa-img img { width: 60px; height: 60px; border-radius: 50%; box-shadow: 0 4px 10px rgba(0,0,0,0.3); transition: transform 0.2s; display: block; }
+        .btn-wa-img img:hover { transform: scale(1.1); }
+        .mapa-container { width: 100%; display: flex; justify-content: center; margin-top: 30px; }
+        .mapa-container iframe { max-width: 100%; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpeg" alt="Logo Babylin Happy">
+            <span>Babylin Happy</span>
+        </div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="ninas.html">Niñas</a>
+            <a href="ninos.html">Niños</a>
+            <a href="ubicacion.html" style="color:#ff6b6b;">Ubicación</a>
+        </nav>
+    </header>
+
+    <section id="ubicacion">
+        <h2>Visítanos</h2>
+        <div class="info-ubicacion">
+            <p>Centro de distribución en San Martín Texmelucan</p>
+            <p>Pasillo 60, dentro de la terminal</p>
+            
+            <div class="mapa-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241185.54685439175!2d-98.50278862560691!3d19.17229497060792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfd3882f872aa7%3A0x9a9527b678d84337!2sTianguis%20San%20Mart%C3%ADn%20Texmelucan!5e0!3m2!1ses-419!2smx!4v1771947087719!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Babylin Happy. Todos los derechos reservados.</p>
+    </footer>
+
+    <div class="whatsapp-flotante">
+        <a href="https://wa.me/522201551097?text=Hola,%20me%20interesa%20informaci%C3%B3n%20sobre%20su%20ubicaci%C3%B3n" target="_blank" class="btn-wa-img">
+            <img src="whatsapp.jpg" alt="Cotizar por WhatsApp">
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
