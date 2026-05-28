@@ -1,3 +1,1 @@
-[build]
-  command = "echo 'Simulando un error crítico...' && exit 1"
-  publish = "public"
+
